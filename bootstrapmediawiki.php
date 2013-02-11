@@ -197,7 +197,7 @@ if( $subnav_links = $this->get_page_links('Bootstrap:Subnav') ) {
       
         <footer>
           <p>&copy; <?php echo date('Y'); ?> by <a href="<?php echo (isset($wgCopyrightLink) ? $wgCopyrightLink : 'http://www.plymouth.edu'); ?>"><?php echo (isset($wgCopyright) ? $wgCopyright : 'Plymouth State University'); ?></a> 
-          	&bull; Powered by <a href="http://mediawiki.org">MediaWiki</a> 
+          	&bull; Powered by <a href="http://mediawiki.org">MediaWiki</a> &bull; <a href="http://fortawesome.github.com/Font-Awesome">Font Awesome</a>
           </p>
         </footer>
       </div><!-- container -->
